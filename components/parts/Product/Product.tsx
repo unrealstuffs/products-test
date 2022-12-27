@@ -32,7 +32,7 @@ const Product = ({ product }: { product: ProductType }) => {
 					</span>
 				</div>
 			</div>
-			<div className={styles.name}>{product.title}</div>
+			<div className={styles.title}>{product.title}</div>
 			<div className={styles.price}>
 				{formatCurrency.format(product.price * 70)} <span>/шт.</span>
 			</div>
