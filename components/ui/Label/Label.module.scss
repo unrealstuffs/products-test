@@ -1,0 +1,17 @@
+.label {
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	width: 64px;
+	height: 24px;
+	transform: skew(-30deg);
+	background: var(--primary);
+	margin: 0 5px;
+
+	span {
+		display: inline-block;
+		font-size: 12px;
+		transform: skew(30deg);
+		font-weight: 700;
+	}
+}

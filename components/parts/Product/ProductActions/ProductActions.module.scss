@@ -1,0 +1,28 @@
+.actions {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	.cart {
+		display: flex;
+		align-items: center;
+		column-gap: 10px;
+	}
+
+	.amount {
+		display: flex;
+		align-items: center;
+		column-gap: 6px;
+		font-size: 14px;
+
+		.sign {
+			color: var(--light);
+			cursor: pointer;
+			user-select: none;
+		}
+	}
+}
+
+.fav {
+	cursor: pointer;
+}

@@ -1,0 +1,30 @@
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 15px 30px;
+	border-bottom: 1px solid var(--light);
+}
+
+.logo {
+	font-weight: 700;
+}
+
+.cart {
+	position: relative;
+
+	.badge {
+		position: absolute;
+		bottom: 0px;
+		right: -5px;
+		background-color: var(--primary);
+		width: 15px;
+		height: 15px;
+		border-radius: 999px;
+		font-size: 12px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		color: var(--white);
+	}
+}

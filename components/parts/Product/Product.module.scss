@@ -1,0 +1,56 @@
+.product {
+	padding: 15px;
+}
+
+.image {
+	margin-bottom: 12px;
+	position: relative;
+	min-height: 200px;
+
+	.hit {
+		position: absolute;
+		top: 0;
+		right: 0;
+	}
+}
+
+.info {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 6px;
+
+	.reviews {
+		display: flex;
+		align-items: center;
+		column-gap: 5px;
+	}
+
+	.category,
+	.count {
+		color: var(--light);
+		font-size: 12px;
+	}
+
+	.count {
+		text-decoration: underline;
+	}
+}
+
+.name {
+	font-size: 14px;
+	color: var(--dark);
+	margin-bottom: 7px;
+}
+
+.price {
+	color: var(--dark);
+	font-size: 22px;
+	font-weight: 600;
+	margin-bottom: 13px;
+
+	span {
+		color: var(--light);
+		font-size: 11px;
+	}
+}
