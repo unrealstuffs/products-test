@@ -18,6 +18,7 @@ const Stars = ({ rate }: { rate: number }) => {
 						alt='star'
 						width={14}
 						height={14}
+						key={index}
 					/>
 				)
 			})}
